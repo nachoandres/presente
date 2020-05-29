@@ -1,47 +1,11 @@
-# presente
+# Issue #9: GUI HP jugador y enemigos.
+##Ignacio Delgadillo Vera Rol: 2503020-6
 
-Low budget game for LP
+Se realizaron 3 cambios en el archivo  draw.c :
 
-(ﾉ*ФωФ)ﾉ
+:bulb: Se agregó la muestra gráfica del HP restante del jugador y los enemigos con una barra que va disminuyendo en tamaño y cambiando de color hasta morir junto con la entidad, limitada ya que una bullet quitaba mucho HP, o lo contrario, que  el HP era limitado.
 
-```
- /\_/\
-( o.o )
- > ^ <
-```
+:bulb: Se agregó una mira que siempre está mostrando donde el esta apuntando el jugador mediante el mousse.
 
-<(0w0)>
-
-                   .               ,.
-                  T."-._..---.._,-"/|
-                  l|"-.  _.v._   (" |
-                  [l /.'_ \; _~"-.`-t
-                  Y " _(o} _{o)._ ^.|
-                  j  T  ,-<v>-.  T  ]
-                  \  l ( /-^-\ ) !  !
-                   \. \.  "~"  ./  /c-..,__
-                     ^r- .._ .- .-"  `- .  ~"--.
-                      > \.                      \
-                      ]   ^.                     \
-                      3  .  ">            .       Y  -Row
-         ,.__.--._   _j   \ ~   .         ;       |
-        (    ~"-._~"^._\   ^.    ^._      I     . l
-         "-._ ___ ~"-,_7    .Z-._   7"   Y      ;  \        _
-            /"   "~-(r r  _/_--._~-/    /      /,.--^-._   / Y
-            "-._    '"~~~>-._~]>--^---./____,.^~        ^.^  !
-                ~--._    '   Y---.                        \./
-                     ~~--._  l_   )                        \
-                           ~-._~~~---._,____..---           \
-                               ~----"~       \
-                                              \
-
-
-```
-.       .
- |\_---_/|
-/   o_o   \
-|    U    |
-\  ._I_.  /
- `-_____-'
-```
+:bulb: Por último se agregó un punto que cambia de color cuando cooldown llega a cero, el problema es que en un principio pense que se trataba de un cooldown de bloquear el arma por un tiempo para esperar enfriamiento, pero en realidad esa variable solo separa el tiempo de disparo de cada bala, por lo que el punto solo cambia de color cada vez que dispara, no se si es error del juego o la version que cloné estaba mala.
 
