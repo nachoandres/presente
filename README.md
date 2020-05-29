@@ -1,5 +1,5 @@
 # Issue #9: GUI HP jugador y enemigos.
-##Ignacio Delgadillo Vera Rol: 2503020-6
+## Ignacio Delgadillo Vera Rol: 2503020-6
 
 Se realizaron 3 cambios en el archivo  draw.c :
 
